@@ -218,6 +218,10 @@ header ul li a:hover{
     font-size: 80%;
     max-width: 80%;
   }
+  
+  .social{
+   display: none;
+  }
 
   
 }
