@@ -182,3 +182,42 @@ header ul li a:hover{
   background: #017143;
   clip-path: circle(600px at right 800px );
 }
+
+
+
+@media (max-width: 850px){
+
+  .starbucks
+  {
+   display: none;
+  }
+   
+  header{
+    display: flex;
+  }
+ 
+  .textbox{
+    font-size:70%;
+    max-width: 70%;
+  }
+
+  .content .textbox h2 span{
+     color: #000000;
+  }
+
+  .content .textbox p{
+    font-weight: 600;
+  }
+
+  .content .textbox a{
+    background: #000000;
+  }
+
+  header ul{
+    display: grid;
+    font-size: 80%;
+    max-width: 80%;
+  }
+
+  
+}
